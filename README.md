@@ -59,9 +59,11 @@ Or run locally:
 {
   "mcpServers": {
     "weatherapi": {
-      "command": "python",
-      "args": ["-m", "weather_server"],
-      "cwd": "d:\\Projects\\mcp-weatherapi",
+      "command": "uvx",
+      "args": [
+        "--from", "git+https://github.com/bsparks/mcp-weatherapi.git",
+        "mcp-weatherapi"
+      ],
       "env": {
         "WEATHERAPI_KEY": "your_api_key_here"
       }

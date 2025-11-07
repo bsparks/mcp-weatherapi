@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "weatherapi": {
+      "command": "uvx",
+      "args": ["mcp-weatherapi"],
+      "env": {
+        "WEATHERAPI_KEY": "your_api_key_here"
+      }
+    }
+  }
+}

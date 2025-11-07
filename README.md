@@ -31,29 +31,9 @@ This MCP server provides the following tools:
    uvx mcp-weatherapi
    ```
 
-## Usage with Claude Desktop
+## Usage with MCP Clients
 
-Add this to your Claude Desktop configuration:
-
-**Windows**: `%APPDATA%\Claude\claude_desktop_config.json`
-
-**macOS**: `~/Library/Application Support/Claude/claude_desktop_config.json`
-
-```json
-{
-  "mcpServers": {
-    "weatherapi": {
-      "command": "uvx",
-      "args": ["mcp-weatherapi"],
-      "env": {
-        "WEATHERAPI_KEY": "your_api_key_here"
-      }
-    }
-  }
-}
-```
-
-Or run locally:
+Add this to your MCP configuration:
 
 ```json
 {

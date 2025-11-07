@@ -299,6 +299,10 @@ async def get_air_quality(location: str) -> dict:
             return {"error": str(e)}
 
 
-if __name__ == "__main__":
-    # Run the server
+def main():
+    """Entry point for the MCP server."""
     mcp.run()
+
+
+if __name__ == "__main__":
+    main()

@@ -10,7 +10,7 @@ dependencies = [
 ]
 
 [project.scripts]
-mcp-weatherapi = "weather_server:mcp"
+mcp-weatherapi = "weather_server:main"
 
 [build-system]
 requires = ["hatchling"]
